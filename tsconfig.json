@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2016",
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "paths": {
+      "@webstudio/*": [
+        "src/webstudio/*"
+      ]
+    },
+    "useDefineForClassFields": true
+  },
+  "include": [
+    "./src/**/*",
+    "./tools/**/*"
+  ]
+}
