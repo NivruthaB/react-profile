@@ -14,18 +14,20 @@ const AnimatedRoutes = ({ personalDetails }: IAnimatedRoutesProps) => {
 
   return (
     <Routes location={location} key={location.pathname}>
-      <Route path="/" element={<Landing />} />
+      <Route path="/" key={1} element={<Landing />} />
       <Route
         path="/about"
+        key={2}
         element={
           <About
           />
         }
       />
-      <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/experience" element={<Experience />} />
+      <Route path="/portfolio" key={3} element={<Portfolio />} />
+      <Route path="/experience" key={4} element={<Experience />} />
       <Route
         path="/contact"
+        key={5}
         element={
           <Contact />
         }
