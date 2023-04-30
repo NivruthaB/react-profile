@@ -42,13 +42,13 @@ const NavLinks = () => {
                     <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
                         Home
                     </NavLink>
-                    <NavLink to="/#about" onClick={() => setIsMenuOpen(false)}>
+                    <NavLink to="/about" onClick={() => setIsMenuOpen(false)}>
                         About
                     </NavLink>
-                    <NavLink to="/#experience" onClick={() => setIsMenuOpen(false)}>
+                    <NavLink to="/experience" onClick={() => setIsMenuOpen(false)}>
                         Experience
                     </NavLink>
-                    <NavLink to="/#contact" onClick={() => setIsMenuOpen(false)}>
+                    <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
                         Contact
                     </NavLink>
                     <ButtonContainer>

@@ -16,7 +16,7 @@ const AnimatedRoutes = ({ personalDetails }: IAnimatedRoutesProps) => {
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Landing name={personalDetails.name} />} />
       <Route
-        path="/#about"
+        path="/about"
         element={
           <About
             name={personalDetails.name}
@@ -28,9 +28,9 @@ const AnimatedRoutes = ({ personalDetails }: IAnimatedRoutesProps) => {
         }
       />
       <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/#experience" element={<Experience />} />
+      <Route path="/experience" element={<Experience />} />
       <Route
-        path="/#contact"
+        path="/contact"
         element={
           <Contact name={personalDetails.name} location={personalDetails.location} email={personalDetails.email} />
         }
