@@ -3,15 +3,13 @@ import Typewriter from "typewriter-effect";
 import landingImage from "../../assets/images/nivrutha-balaji.jpg";
 import React from "react";
 import styled from "styled-components";
-interface ILandingProps {
-  name: string
-}
-const Landing = ({ name }: ILandingProps) => {
+
+const Landing = () => {
   return (
     <LandingPageContainer >
       <NameContainer >
         <StyledName>
-          {name}
+          {"Nivrutha Balaji"}
         </StyledName>
         <StyledTypeWriterContainer>
           <Typewriter
@@ -54,6 +52,7 @@ const StyledTypeWriterContainer = styled.div`
   margin-top: -100px;
   padding-bottom: 28px;
   font-size: 40px;
+  text-align: center;
   @media(max-width: 1082px){
     position: unset;
     margin-top: 5px;

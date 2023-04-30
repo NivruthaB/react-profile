@@ -3,12 +3,8 @@ import Form from "../../components/Form";
 import ContactInfo from "../../components/ContactInfo";
 import React from "react";
 import styled from "styled-components";
-interface IContactProps {
-  name: any,
-  email: string,
-  location: any
-}
-const Contact = ({ name, email, location }: IContactProps) => {
+
+const Contact = () => {
   return (
     <section className="about">
       <PageHeader title="Contact" description="Get in touch" />

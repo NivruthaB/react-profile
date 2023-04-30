@@ -14,16 +14,11 @@ const AnimatedRoutes = ({ personalDetails }: IAnimatedRoutesProps) => {
 
   return (
     <Routes location={location} key={location.pathname}>
-      <Route path="/" element={<Landing name={personalDetails.name} />} />
+      <Route path="/" element={<Landing />} />
       <Route
         path="/about"
         element={
           <About
-            name={personalDetails.name}
-            location={personalDetails.location}
-            email={personalDetails.email}
-            availability={personalDetails.availability}
-            brand={personalDetails.brand}
           />
         }
       />
@@ -32,7 +27,7 @@ const AnimatedRoutes = ({ personalDetails }: IAnimatedRoutesProps) => {
       <Route
         path="/contact"
         element={
-          <Contact name={personalDetails.name} location={personalDetails.location} email={personalDetails.email} />
+          <Contact />
         }
       />
     </Routes>

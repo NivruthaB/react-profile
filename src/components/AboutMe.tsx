@@ -3,18 +3,11 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import styled from "styled-components";
 
-interface IAboutMeProps {
-  name: any;
-  email: string,
-  location: any,
-  availability: any,
-  brand: any
-}
 
 const personalDescription = 'I am a web developer with over 4.5 years of experience. I initially started my work experience with developing web APIs using .NET and then started to experiment with front-end technologies. I stayed here because I found this part of the web world more interesting!'
 const skillsList1 = ['React', 'Angular', 'JavaScript (ES6+)'];
 const skillsList2 = ['TypeScript', 'HTML', 'CSS'];
-const AboutMe = ({ name }: IAboutMeProps) => {
+const AboutMe = () => {
   const checkWindowSize = (width) => {
     if (width <= 992) {
       return true;
@@ -38,7 +31,7 @@ const AboutMe = ({ name }: IAboutMeProps) => {
         animate={isSmall === false ? { x: '50%' } : { x: '0%' }}
         transition={{ ease: "easeInOut", duration: 0.6 }}
       >
-        <img src={aboutMeImg} alt={name} />
+        <img src={aboutMeImg} alt={'Nivrutha Balaji'} />
       </StyledImage>
       <AboutMeContent
         initial={{ x: 120 }}
