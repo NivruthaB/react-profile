@@ -15,7 +15,7 @@ const experienceDetails = {
         companyName: 'AspenTech Inmation'
     },
     infosys: {
-        detailsPoints: ['Write modern and robust code for a diverse set of client and internal projects using latest versions of Angular, React.JS, .NET framework and MySQL.',
+        detailsPoints: ['Write modern and robust code for a diverse set of clients and internal projects using latest versions of Angular, React.JS, .NET framework and MySQL.',
             'Work in an agile friendly environment where communication and collaboration with multi-disciplinary teams of engineers, designers, producers, clients, and stakeholders were done on a daily basis.',
             'Underwent training in Python, PHP, Linux OS as a system engineer trainee for four months.'],
         link: 'https://www.infosys.com/',
