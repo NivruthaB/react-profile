@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c182ae1d.css",
-    "main.js": "/static/js/main.12c44eee.js",
-    "static/js/787.f2a0fa2f.chunk.js": "/static/js/787.f2a0fa2f.chunk.js",
+    "main.js": "/static/js/main.cafdbfa9.js",
+    "static/js/787.5c467991.chunk.js": "/static/js/787.5c467991.chunk.js",
     "static/media/nivrutha-balaji.jpg": "/static/media/nivrutha-balaji.0b208b63cb55ba8c4044.jpg",
     "static/media/logo-color.png": "/static/media/logo-color.73e9f81fda6de162f6fd.png",
     "static/media/nivrutha-balaji-resume.pdf": "/static/media/nivrutha-balaji-resume.05c1d72b58d592b2e47a.pdf",
@@ -10,11 +10,11 @@
     "static/media/close.svg": "/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
     "static/media/open.svg": "/static/media/open.55529e7407946ab49174904e45c32d61.svg",
     "main.c182ae1d.css.map": "/static/css/main.c182ae1d.css.map",
-    "main.12c44eee.js.map": "/static/js/main.12c44eee.js.map",
-    "787.f2a0fa2f.chunk.js.map": "/static/js/787.f2a0fa2f.chunk.js.map"
+    "main.cafdbfa9.js.map": "/static/js/main.cafdbfa9.js.map",
+    "787.5c467991.chunk.js.map": "/static/js/787.5c467991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c182ae1d.css",
-    "static/js/main.12c44eee.js"
+    "static/js/main.cafdbfa9.js"
   ]
 }
