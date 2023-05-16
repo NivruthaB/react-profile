@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
 /* --- VARIABLES --- */
 :root {
   --bg-color: #020c1b;
@@ -25,6 +23,13 @@
   }
 }
 
+@font-face {
+  font-family: "Alliance";
+  /*Can be any text*/
+  src: local("Alliance"),
+    url("./assets/font/AllianceNo2-Medium.ttf") format("truetype");
+}
+
 /* --- RESETS --- */
 
 * {
@@ -42,7 +47,17 @@ body,
 
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Alliance', sans-serif;
+
+  ::-moz-selection {
+    color: var(--secondary-text-color);
+    background-color: var(--hl-color);
+  }
+
+  ::selection {
+    color: var(--secondary-text-color);
+    background-color: var(--hl-color);
+  }
 }
 
 /* --- GLOBAL STYLES --- */
