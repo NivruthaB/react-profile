@@ -4,4 +4,6 @@ This is my small attempt at making a portfolio website using React and TypeScrip
 
 This is inspired by the [repository.](https://github.com/mdyeates/my-portfolio)
 
+[View live website](https://nivruthabalaji.com/)
+
 Tech Stack: React, TypeScript, Styled components
