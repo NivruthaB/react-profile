@@ -25,8 +25,8 @@ const SocialIcons = ({ isContact }) => {
           {
             opacity: [0.8, 0.5, 0.2, 0, 0, 0, 0, 0, 1],
             transform: ['rotate(-90deg)'],
-            right: ['50px', '50px', '50px', '50px', '8800px', '880px', '880px', '880px', '880px'],
-            bottom: ['10px', '10px', '10px', '10px', '150px', '150px', '150px', '150px', '150px'],
+            right: ['50px', '50px', '50px', '50px', '1020px', '1020px', '1020px', '1020px', '1020px'],
+            bottom: ['10px', '10px', '10px', '10px', '250px', '250px', '250px', '250px', '250px'],
           }
           :
           {
